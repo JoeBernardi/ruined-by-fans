@@ -1,6 +1,7 @@
 require 'sinatra'
 require 'data_mapper'
 require 'json'
+require 'dm-sqlite-adapter'
 
 enable :sessions
 
