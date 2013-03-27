@@ -48,7 +48,7 @@ DataMapper.auto_upgrade!
 json = File.read('db/seed.json')
 @items = JSON.parse(json)
 
-if Item.count == 1
+if Item.count == 0
 	@items.each do |attr_name, attr_value|
 		qualities = Array.new
 		awfulnesses = Array.new
