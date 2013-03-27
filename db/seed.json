@@ -1,0 +1,1122 @@
+{
+	"Krzysztof Kieślowski": {
+		"Name": "Krzysztof Kieślowski",
+		"Joe": {
+			"quality": 8.5,
+			"fans": 2
+		},
+		"David": {
+			"quality": 7,
+			"fans": 2
+		},
+		"Tag": {
+		}
+	},
+	"Werner Herzog": {
+		"Name": "Werner Herzog",
+		"Joe": {
+			"quality": 8.5,
+			"fans": 2
+		},
+		"David": {
+			"quality": 8,
+			"fans": 2
+		},
+		"Tag": {
+			"quality": 7,
+			"fans": 3
+		}
+	},
+	"Devo": {
+		"Name": "Devo",
+		"Joe": {
+			"quality": 9.5,
+			"fans": 2
+		},
+		"David": {
+			"quality": 8,
+			"fans": 3
+		},
+		"Tag": {
+			"quality": 7,
+			"fans": 3.5
+		}
+	},
+	"IRC": {
+		"Name": "IRC",
+		"Joe": {
+			"quality": 6,
+			"fans": 3
+		},
+		"David": {
+			"quality": 7,
+			"fans": 3
+		},
+		"Tag": {
+		}
+	},
+	"Pocket Squares": {
+		"Name": "Pocket Squares",
+		"Joe": {
+			"quality": 7,
+			"fans": 3
+		},
+		"David": {
+			"quality": 7,
+			"fans": 3
+		},
+		"Tag": {
+			"quality": 6,
+			"fans": 4
+		}
+	},
+	"The Smell of Books": {
+		"Name": "The Smell of Books",
+		"Joe": {
+			"quality": 8,
+			"fans": 3
+		},
+		"David": {
+			"quality": 9,
+			"fans": 3
+		},
+		"Tag": {
+			"quality": 8.5,
+			"fans": 4
+		}
+	},
+	"Tapas": {
+		"Name": "Tapas",
+		"Joe": {
+		},
+		"David": {
+			"quality": 6,
+			"fans": 3
+		},
+		"Tag": {
+			"quality": 5.5,
+			"fans": 4
+		}
+	},
+	"Japanese Bric-a-brac": {
+		"Name": "Japanese Bric-a-brac",
+		"Joe": {
+			"quality": 7,
+			"fans": 4
+		},
+		"David": {
+			"quality": 8,
+			"fans": 3
+		},
+		"Tag": {
+			"quality": 5.5,
+			"fans": 3.5
+		}
+	},
+	"Car Customization": {
+		"Name": "Car Customization",
+		"Joe": {
+			"quality": 9,
+			"fans": 4
+		},
+		"David": {
+			"quality": 8,
+			"fans": 3
+		},
+		"Tag": {
+			"quality": 8,
+			"fans": 4
+		}
+	},
+	"Funny Flow Charts": {
+		"Name": "Funny Flow Charts",
+		"Joe": {
+			"quality": 7,
+			"fans": 4
+		},
+		"David": {
+			"quality": 8,
+			"fans": 3
+		},
+		"Tag": {
+			"quality": 5.5,
+			"fans": 3.5
+		}
+	},
+	"Hoefler & Frere-Jones": {
+		"Name": "Hoefler & Frere-Jones",
+		"Joe": {
+			"quality": 8,
+			"fans": 3
+		},
+		"David": {
+			"quality": 9,
+			"fans": 4
+		},
+		"Tag": {
+			"quality": 8.5,
+			"fans": 5
+		}
+	},
+	"Stanley Kubrick": {
+		"Name": "Stanley Kubrick",
+		"Joe": {
+			"quality": 9,
+			"fans": 3
+		},
+		"David": {
+			"quality": 9.5,
+			"fans": 5
+		},
+		"Tag": {
+			"quality": 9,
+			"fans": 4
+		}
+	},
+	"Fonts": {
+		"Name": "Fonts",
+		"Joe": {
+			"quality": 6,
+			"fans": 3
+		},
+		"David": {
+			"quality": 7,
+			"fans": 5
+		},
+		"Tag": {
+			"quality": 5,
+			"fans": 5
+		}
+	},
+	"Ultimate Frisbee": {
+		"Name": "Ultimate Frisbee",
+		"Joe": {
+			"quality": 8.5,
+			"fans": 5
+		},
+		"David": {
+			"quality": 6,
+			"fans": 5
+		},
+		"Tag": {
+			"quality": 6,
+			"fans": 3
+		}
+	},
+	"The Big Lebowski": {
+		"Name": "The Big Lebowski",
+		"Joe": {
+			"quality": 8,
+			"fans": 5
+		},
+		"David": {
+			"quality": 8,
+			"fans": 4
+		},
+		"Tag": {
+			"quality": 7,
+			"fans": 5
+		}
+	},
+	"Steve Jobs": {
+		"Name": "Steve Jobs",
+		"Joe": {
+			"quality": 8,
+			"fans": 5
+		},
+		"David": {
+			"quality": 9,
+			"fans": 4
+		},
+		"Tag": {
+			"quality": 8,
+			"fans": 8
+		}
+	},
+	"Homebrewing/Microbrewing": {
+		"Name": "Homebrewing/Microbrewing",
+		"Joe": {
+			"quality": 8.5,
+			"fans": 5
+		},
+		"David": {
+			"quality": 9,
+			"fans": 4
+		},
+		"Tag": {
+			"quality": 8,
+			"fans": 6.5
+		}
+	},
+	"Pink Floyd": {
+		"Name": "Pink Floyd",
+		"Joe": {
+			"quality": 8,
+			"fans": 6
+		},
+		"David": {
+			"quality": 5,
+			"fans": 6
+		},
+		"Tag": {
+			"quality": 6,
+			"fans": 4
+		}
+	},
+	"Cowbell": {
+		"Name": "Cowbell",
+		"Joe": {
+			"quality": 8,
+			"fans": 5
+		},
+		"David": {
+			"quality": 6,
+			"fans": 6
+		},
+		"Tag": {
+			"quality": 5,
+			"fans": 5
+		}
+	},
+	"Magic": {
+		"Name": "Magic",
+		"Joe": {
+			"quality": 8.5,
+			"fans": 4
+		},
+		"David": {
+			"quality": 8,
+			"fans": 7
+		},
+		"Tag": {
+			"quality": 6,
+			"fans": 5
+		}
+	},
+	"Weddings": {
+		"Name": "Weddings",
+		"Joe": {
+			"quality": 7,
+			"fans": 5
+		},
+		"David": {
+			"quality": 8,
+			"fans": 5
+		},
+		"Tag": {
+			"quality": 7.5,
+			"fans": 6
+		}
+	},
+	"Fernet": {
+		"Name": "Fernet",
+		"Joe": {
+			"quality": 8,
+			"fans": 5
+		},
+		"David": {
+			"quality": 8,
+			"fans": 5
+		},
+		"Tag": {
+			"quality": 7.5,
+			"fans": 6
+		}
+	},
+	"Linux": {
+		"Name": "Linux",
+		"Joe": {
+			"quality": 8.5,
+			"fans": 6
+		},
+		"David": {
+			"quality": 8,
+			"fans": 5
+		},
+		"Tag": {
+			"quality": 7.5,
+			"fans": 5
+		}
+	},
+	"Arrested Development": {
+		"Name": "Arrested Development",
+		"Joe": {
+			"quality": 9,
+			"fans": 4
+		},
+		"David": {
+			"quality": 9,
+			"fans": 5
+		},
+		"Tag": {
+			"quality": 8.5,
+			"fans": 7
+		}
+	},
+	"Renn Faire Stuff": {
+		"Name": "Renn Faire Stuff",
+		"Joe": {
+			"quality": 8,
+			"fans": 6.5
+		},
+		"David": {
+			"quality": 7,
+			"fans": 5
+		},
+		"Tag": {
+			"quality": 5,
+			"fans": 5
+		}
+	},
+	"Halo": {
+		"Name": "Halo",
+		"Joe": {
+			"quality": 8,
+			"fans": 5
+		},
+		"David": {
+			"quality": 7,
+			"fans": 6
+		},
+		"Tag": {
+		}
+	},
+	"Ramps": {
+		"Name": "Ramps",
+		"Joe": {
+			"quality": 8,
+			"fans": 4
+		},
+		"David": {
+			"quality": 8,
+			"fans": 6
+		},
+		"Tag": {
+			"quality": 8,
+			"fans": 7
+		}
+	},
+	"8-bit Aesthetics": {
+		"Name": "8-bit Aesthetics",
+		"Joe": {
+			"quality": 9,
+			"fans": 6
+		},
+		"David": {
+			"quality": 9,
+			"fans": 5
+		},
+		"Tag": {
+			"quality": 8,
+			"fans": 6
+		}
+	},
+	"The Wire": {
+		"Name": "The Wire",
+		"Joe": {
+			"quality": 9,
+			"fans": 5
+		},
+		"David": {
+			"quality": 9,
+			"fans": 6
+		},
+		"Tag": {
+			"quality": 8.5,
+			"fans": 6
+		}
+	},
+	"Twin Peaks": {
+		"Name": "Twin Peaks",
+		"Joe": {
+			"quality": 9,
+			"fans": 3
+		},
+		"David": {
+			"quality": 9,
+			"fans": 6
+		},
+		"Tag": {
+			"quality": 6,
+			"fans": 9
+		}
+	},
+	"Psychedelia Culture": {
+		"Name": "Psychedelia Culture",
+		"Joe": {
+			"quality": 8.5,
+			"fans": 7
+		},
+		"David": {
+			"quality": 8,
+			"fans": 7
+		},
+		"Tag": {
+			"quality": 6,
+			"fans": 4
+		}
+	},
+	"Backpack Rap": {
+		"Name": "Backpack Rap",
+		"Joe": {
+			"quality": 7,
+			"fans": 6
+		},
+		"David": {
+			"quality": 7,
+			"fans": 6
+		},
+		"Tag": {
+		}
+	},
+	"Straight Edge": {
+		"Name": "Straight Edge",
+		"Joe": {
+			"quality": 8.5,
+			"fans": 6
+		},
+		"David": {
+			"quality": 8,
+			"fans": 6
+		},
+		"Tag": {
+			"quality": 7.5,
+			"fans": 6
+		}
+	},
+	"Wacky Sneakers": {
+		"Name": "Wacky Sneakers",
+		"Joe": {
+			"quality": 6,
+			"fans": 4
+		},
+		"David": {
+		},
+		"Tag": {
+			"quality": 7,
+			"fans": 8.5
+		}
+	},
+	"Libertarianism": {
+		"Name": "Libertarianism",
+		"Joe": {
+			"quality": 5,
+			"fans": 8
+		},
+		"David": {
+			"quality": 6,
+			"fans": 8
+		},
+		"Tag": {
+			"quality": 5,
+			"fans": 7
+		}
+	},
+	"The Flaming Lips": {
+		"Name": "The Flaming Lips",
+		"Joe": {
+			"quality": 7,
+			"fans": 6
+		},
+		"David": {
+			"quality": 8,
+			"fans": 6
+		},
+		"Tag": {
+			"quality": 7,
+			"fans": 7
+		}
+	},
+	"Coffee": {
+		"Name": "Coffee",
+		"Joe": {
+			"quality": 8.5,
+			"fans": 7
+		},
+		"David": {
+			"quality": 9.5,
+			"fans": 7
+		},
+		"Tag": {
+			"quality": 9,
+			"fans": 5
+		}
+	},
+	"Kombucha": {
+		"Name": "Kombucha",
+		"Joe": {
+			"quality": 7,
+			"fans": 6
+		},
+		"David": {
+			"quality": 7,
+			"fans": 7
+		},
+		"Tag": {
+			"quality": 7.5,
+			"fans": 6.5
+		}
+	},
+	"Quentin Tarantino": {
+		"Name": "Quenten Tarantino",
+		"Joe": {
+			"quality": 8.5,
+			"fans": 6
+		},
+		"David": {
+			"quality": 8.5,
+			"fans": 6.5
+		},
+		"Tag": {
+			"quality": 8.5,
+			"fans": 7
+		}
+	},
+	"Spongebob Squarepants": {
+		"Name": "Spongebob Squarepants",
+		"Joe": {
+			"quality": 7,
+			"fans": 6
+		},
+		"David": {
+			"quality": 6,
+			"fans": 8
+		},
+		"Tag": {
+			"quality": 7,
+			"fans": 6
+		}
+	},
+	"BDSM": {
+		"Name": "BDSM",
+		"Joe": {
+			"quality": 8,
+			"fans": 6
+		},
+		"David": {
+			"quality": 7,
+			"fans": 7
+		},
+		"Tag": {
+			"quality": 5.5,
+			"fans": 7
+		}
+	},
+	"NASCAR": {
+		"Name": "NASCAR",
+		"Joe": {
+			"quality": 8,
+			"fans": 6
+		},
+		"David": {
+			"quality": 6,
+			"fans": 7
+		},
+		"Tag": {
+			"quality": 7,
+			"fans": 7
+		}
+	},
+	"Final Fantasy 7": {
+		"Name": "Final Fantasy 7",
+		"Joe": {
+			"quality": 7,
+			"fans": 5.5
+		},
+		"David": {
+			"quality": 7,
+			"fans": 8
+		},
+		"Tag": {
+		}
+	},
+	"Bill Hicks": {
+		"Name": "Bill Hicks",
+		"Joe": {
+			"quality": 4,
+			"fans": 5
+		},
+		"David": {
+			"quality": 5,
+			"fans": 8
+		},
+		"Tag": {
+			"quality": 5,
+			"fans": 8
+		}
+	},
+	"Wine Bars": {
+		"Name": "Wine Bars",
+		"Joe": {
+			"quality": 5,
+			"fans": 8
+		},
+		"David": {
+			"quality": 6,
+			"fans": 7
+		},
+		"Tag": {
+			"quality": 5,
+			"fans": 6
+		}
+	},
+	"Bacon": {
+		"Name": "Bacon",
+		"Joe": {
+			"quality": 5,
+			"fans": 6
+		},
+		"David": {
+			"quality": 7,
+			"fans": 8
+		},
+		"Tag": {
+			"quality": 6.5,
+			"fans": 7
+		}
+	},
+	"Truffles": {
+		"Name": "Truffies",
+		"Joe": {
+		},
+		"David": {
+			"quality": 8,
+			"fans": 8
+		},
+		"Tag": {
+			"quality": 7,
+			"fans": 9
+		}
+	},
+	"Jazz": {
+		"Name": "Jazz",
+		"Joe": {
+			"quality": 9.5,
+			"fans": 6.0
+		},
+		"David": {
+			"quality": 8,
+			"fans": 7
+		},
+		"Tag": {
+			"quality": 8,
+			"fans": 8
+		}
+	},
+	"Belgian Beers": {
+		"Name": "Belgian Beers",
+		"Joe": {
+			"quality": 3,
+			"fans": 7
+		},
+		"David": {
+			"quality": 8,
+			"fans": 7
+		},
+		"Tag": {
+			"quality": 7.5,
+			"fans": 7.5
+		}
+	},
+	"Smartphones": {
+		"Name": "Smartphones",
+		"Joe": {
+			"quality": 8.5,
+			"fans": 3
+		},
+		"David": {
+			"quality": 8.5,
+			"fans": 9.5
+		},
+		"Tag": {
+			"quality": 8,
+			"fans": 9
+		}
+	},
+	"Comic Book Conventions": {
+		"Name": "Comic Book Conventions",
+		"Joe": {
+			"quality": 8.5,
+			"fans": 7
+		},
+		"David": {
+			"quality": 7,
+			"fans": 7
+		},
+		"Tag": {
+			"quality": 5.5,
+			"fans": 8
+		}
+	},
+	"Tool": {
+		"Name": "Tool",
+		"Joe": {
+			"quality": 2,
+			"fans": 7
+		},
+		"David": {
+			"quality": 2,
+			"fans": 8
+		},
+		"Tag": {
+		}
+	},
+	"Bukowski": {
+		"Name": "Bukowski",
+		"Joe": {
+			"quality": 8,
+			"fans": 7
+		},
+		"David": {
+		},
+		"Tag": {
+			"quality": 6,
+			"fans": 8
+		}
+	},
+	"Monty Python": {
+		"Name": "Monty Python",
+		"Joe": {
+			"quality": 9,
+			"fans": 6.5
+		},
+		"David": {
+			"quality": 9,
+			"fans": 8
+		},
+		"Tag": {
+			"quality": 9,
+			"fans": 8
+		}
+	},
+	"Family Guy": {
+		"Name": "Family Guy",
+		"Joe": {
+			"quality": 4,
+			"fans": 8
+		},
+		"David": {
+			"quality": 2,
+			"fans": 10
+		},
+		"Tag": {
+			"quality": 3.5,
+			"fans": 5
+		}
+	},
+	"St. Patrick's Day": {
+		"Name": "St. Patrick's Day",
+		"Joe": {
+			"quality": 5,
+			"fans": 7
+		},
+		"David": {
+			"quality": 6,
+			"fans": 8
+		},
+		"Tag": {
+			"quality": 7.5,
+			"fans": 8
+		}
+	},
+	"Minimalism": {
+		"Name": "Minimalism",
+		"Joe": {
+			"quality": 9,
+			"fans": 6
+		},
+		"David": {
+			"quality": 5,
+			"fans": 9
+		},
+		"Tag": {
+			"quality": 6,
+			"fans": 8
+		}
+	},
+	"David Foster Wallace": {
+		"Name": "David Foster Wallace",
+		"Joe": {
+			"quality": 9,
+			"fans": 7
+		},
+		"David": {
+			"quality": 9,
+			"fans": 8
+		},
+		"Tag": {
+			"quality": 8,
+			"fans": 10
+		}
+	},
+	"Alice In Wonderland": {
+		"Name": "Alice In Wonderland",
+		"Joe": {
+			"quality": 5,
+			"fans": 6.5
+		},
+		"David": {
+			"quality": 5,
+			"fans": 8
+		},
+		"Tag": {
+			"quality": 6,
+			"fans": 9
+		}
+	},
+	"Ralph Wiggum": {
+		"Name": "Ralph Wiggum",
+		"Joe": {
+			"quality": 4,
+			"fans": 7
+		},
+		"David": {
+			"quality": 5,
+			"fans": 8
+		},
+		"Tag": {
+			"quality": 6,
+			"fans": 9
+		}
+	},
+	"The Grateful Dead": {
+		"Name": "The Grateful Dead",
+		"Joe": {
+			"quality": 7.5,
+			"fans": 8
+		},
+		"David": {
+			"quality": 6,
+			"fans": 7
+		},
+		"Tag": {
+			"quality": 6,
+			"fans": 9
+		}
+	},
+	"Burning Man": {
+		"Name": "Burning Man",
+		"Joe": {
+			"quality": 6,
+			"fans": 8
+		},
+		"David": {
+			"quality": 6,
+			"fans": 9
+		},
+		"Tag": {
+			"quality": 6,
+			"fans": 9
+		}
+	},
+	"Yoga": {
+		"Name": "Yoga",
+		"Joe": {
+			"quality": 8,
+			"fans": 8
+		},
+		"David": {
+			"quality": 8,
+			"fans": 8
+		},
+		"Tag": {
+			"quality": 7,
+			"fans": 8
+		}
+	},
+	"Wes Anderson": {
+		"Name": "Wes Anderson",
+		"Joe": {
+			"quality": 8,
+			"fans": 8
+		},
+		"David": {
+			"quality": 6,
+			"fans": 10
+		},
+		"Tag": {
+			"quality": 7.5,
+			"fans": 9
+		}
+	},
+	"Chappelle's Show": {
+		"Name": "Chappelle's Show",
+		"Joe": {
+			"quality": 9,
+			"fans": 7
+		},
+		"David": {
+			"quality": 8,
+			"fans": 8
+		},
+		"Tag": {
+			"quality": 8,
+			"fans": 9
+		}
+	},
+	"Lady Gaga": {
+		"Name": "Lady Gaga",
+		"Joe": {
+			"quality": 5,
+			"fans": 8
+		},
+		"David": {
+			"quality": 5,
+			"fans": 8.5
+		},
+		"Tag": {
+			"quality": 6.5,
+			"fans": 8
+		}
+	},
+	"Cupcakes": {
+		"Name": "Cupcakes",
+		"Joe": {
+			"quality": 8.5,
+			"fans": 7
+		},
+		"David": {
+			"quality": 8,
+			"fans": 8.5
+		},
+		"Tag": {
+			"quality": 5,
+			"fans": 9
+		}
+	},
+	"Bob Dylan": {
+		"Name": "Bob Dylan",
+		"Joe": {
+			"quality": 8,
+			"fans": 6
+		},
+		"David": {
+			"quality": 7,
+			"fans": 9
+		},
+		"Tag": {
+			"quality": 7.5,
+			"fans": 9.5
+		}
+	},
+	"'Europe'": {
+		"Name": "'Europe'",
+		"Joe": {
+			"quality": 9,
+			"fans": 6
+		},
+		"David": {
+			"quality": 8.5,
+			"fans": 9
+		},
+		"Tag": {
+			"quality": 8,
+			"fans": 9.5
+		}
+	},
+	"Startups": {
+		"Name": "Startups",
+		"Joe": {
+			"quality": 9,
+			"fans": 7
+		},
+		"David": {
+			"quality": 9,
+			"fans": 9
+		},
+		"Tag": {
+			"quality": 8,
+			"fans": 8.5
+		}
+	},
+	"Radiohead": {
+		"Name": "Radiohead",
+		"Joe": {
+			"quality": 5,
+			"fans": 8
+		},
+		"David": {
+			"quality": 5,
+			"fans": 9
+		},
+		"Tag": {
+			"quality": 6,
+			"fans": 8
+		}
+	},
+	"Farmer's Markets": {
+		"Name": "Farmer's Markets",
+		"Joe": {
+			"quality": 9,
+			"fans": 8
+		},
+		"David": {
+			"quality": 8.5,
+			"fans": 8
+		},
+		"Tag": {
+			"quality": 8,
+			"fans": 9
+		}
+	},
+	"Hunter S. Thompson": {
+		"Name": "Hunter S. Thompson",
+		"Joe": {
+			"quality": 8.5,
+			"fans": 8
+		},
+		"David": {
+			"quality": 6,
+			"fans": 9
+		},
+		"Tag": {
+			"quality": 6,
+			"fans": 10
+		}
+	},
+	"Sublime": {
+		"Name": "Sublime",
+		"Joe": {
+			"quality": 1,
+			"fans": 10
+		},
+		"David": {
+			"quality": 3,
+			"fans": 9
+		},
+		"Tag": {
+			"quality": 2,
+			"fans": 9
+		}
+	},
+	"Veganism": {
+		"Name": "Veganism",
+		"Joe": {
+			"quality": 9,
+			"fans": 9
+		},
+		"David": {
+			"quality": 5,
+			"fans": 9.5
+		},
+		"Tag": {
+			"quality": 5.5,
+			"fans": 9.5
+		}
+	},
+	"Bicycling": {
+		"Name": "Bicycling",
+		"Joe": {
+			"quality": 8,
+			"fans": 10
+		},
+		"David": {
+			"quality": 9,
+			"fans": 10
+		},
+		"Tag": {
+			"quality": 9.5,
+			"fans": 10
+		}
+	}
+}

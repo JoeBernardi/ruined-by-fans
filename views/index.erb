@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+	
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Ruined By Its Fans</title>
+	<link rel="stylesheet" href="css/reset.css" type="text/css" media="screen"/>
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="screen"/>
+	<link href='http://fonts.googleapis.com/css?family=Roboto:400,900' rel='stylesheet' type='text/css'>
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery.isotope.min.js"></script>
+	<script type="text/javascript" src="js/ruined.js"></script>
+
+</head>
+<body>
+
+<% if @items %>
+
+	<div id="container">
+
+		<div id="headers">
+			<div class="name" data-sort="name">Name <span class="triangle">&blacktriangle;</span> <span class="down-triangle">&blacktriangledown;</span></div>
+			<div class="quality number" data-sort="quality">Average Quality <span class="triangle">&blacktriangle;</span> <span class="down-triangle">&blacktriangledown;</span></div>
+			<div class="fan number" data-sort="fan">Average Fan Awfulness <span class="triangle">&blacktriangle;</span> <span class="down-triangle">&blacktriangledown;</span></div>
+			<div class="final number" data-sort="final">Final Quality <span class="triangle">&blacktriangle;</span> <span class="down-triangle">&blacktriangledown;</span></div>
+			<div class="ruin number" data-sort="ruin">Degree Of Ruin <span class="triangle">&blacktriangle;</span> <span class="down-triangle">&blacktriangledown;</span></div>
+			<div class="tragedy number" data-sort="tragedy">Level Of Tragedy <span class="triangle">&blacktriangle;</span> <span class="down-triangle">&blacktriangledown;</span></div>
+		</div>
+
+		<div id="items">
+	        <%@items.each do |i|%>
+	        	<div class="item">
+	          		<div class="name"><%=i.name%></div>
+	          		<div class="quality number"><%=i.averageQuality%></div>
+	          		<div class="fan number"><%=i.averageFanAwfulness%></div>
+	          		<div class="final number"><%=i.finalQuality%></div>
+	          		<div class="ruin number"><%=i.degreeOfRuin%></div>
+	          		<div class="tragedy number"><%=i.levelOfTragedy%></div>	          		
+	          	</div>
+	         <% end %>
+		</div>
+
+	</div>
+
+<% end %>
+
+</body>
+</html>
