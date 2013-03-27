@@ -1,6 +1,5 @@
 require 'sinatra'
 require 'data_mapper'
-require 'sinatra/flash'
 require 'json'
 
 enable :sessions
