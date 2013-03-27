@@ -1,9 +1,10 @@
 To Install Locally
 ==============
 
-	- Clone git repository into a directory.
-	- Do a `bundle install`.
-	- Do `ruby ruined.rb`.
+
+	- Clone git repository into a directory, then cd into that directory.
+	- Do a 'bundle install'.
+	- Do 'ruby ruined.rb'.
 	- The project should come alive at http://localhost:4567.
 
 
@@ -29,15 +30,16 @@ Final Quality
 
 The **Average Quality** minus the **Average Fan Awfulness**.
 If the fans are worse than the thing is good, it's possible for this to end up negative.
-Simply put:  This is the percieved quality of the thing, assuming the fans' opinions are weighted equally with the quality of the thing itself.
+Simply Put:  This is the percieved quality of the thing, assuming the fans' opinions are weighted equally with the quality of the thing itself.
 
 	- Range: 10 to -10
+
 
 Degree Of Ruin
 --------------
 
 Finding out what percentage of the **Average Quality** the **Final Quality** is and subtracting it from a hundred.
-Simply put:  The percentage of the thing's innate quality that the awful fans knock off.
+Simply Put:  The percentage of the thing's innate quality that the awful fans knock off.
 
 	- Range: 0 to 1100
 
