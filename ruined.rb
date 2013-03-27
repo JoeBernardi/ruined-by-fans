@@ -98,7 +98,7 @@ end
 
 
 get '/' do
-	@items = Item.all
+	@items = Item.get(1..50)
 	erb :index
 end
 
