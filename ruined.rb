@@ -1,8 +1,6 @@
 require 'sinatra'
 require 'data_mapper'
 require 'json'
-require "sqlite3"
-require "dm-sqlite-adapter"
 
 enable :sessions
 
@@ -22,7 +20,7 @@ helpers do
 
 end
 
-DataMapper.setup(:default, "sqlite://#{Dir.pwd}/ruined.db")
+DataMapper.setup(:default, ENV['DATABASE_URL'] || 'postgres://localhost/mydb')
 
 class Item
   include DataMapper::Resource
