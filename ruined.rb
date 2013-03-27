@@ -20,7 +20,7 @@ helpers do
 
 end
 
-DataMapper.setup(:default, ENV['DATABASE_URL'] || 'postgres://localhost/mydb')
+DataMapper.setup(:default, ENV['HEROKU_POSTGRESQL_COPPER_URL'] || 'postgres://localhost/mydb')
 
 class Item
   include DataMapper::Resource
