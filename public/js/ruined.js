@@ -102,19 +102,19 @@ var Ruined = {
 		      return $elem.find('.name').text();
 		    },
 		    quality : function ( $elem ) {
-		      return parseInt($elem.find('.quality').text());
+		      return parseFloat($elem.find('.quality').text());
 		    },
 		    fan : function ( $elem ) {
-		      return parseInt($elem.find('.fan').text());
+		      return parseFloat($elem.find('.fan').text());
 		    },
 		    final : function ( $elem ) {
-		      return parseInt($elem.find('.final').text());
+		      return parseFloat($elem.find('.final').text());
 		    },
 		    tragedy : function ( $elem ) {
-		      return parseInt($elem.find('.tragedy').text());
+		      return parseFloat($elem.find('.tragedy').text());
 		    },
 		    ruin : function ( $elem ) {
-		      return parseInt($elem.find('.ruin').text());
+		      return parseFloat($elem.find('.ruin').text());
 		    }
 		  }
 		});
