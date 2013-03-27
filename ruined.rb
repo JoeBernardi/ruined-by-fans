@@ -74,8 +74,8 @@ if Item.count == 0
 		averageQuality = (qualities.inject{ |sum, el| sum + el }.to_f / qualities.size).round(2)
 		averageFanAwfulness = (awfulnesses.inject{ |sum, el| sum + el }.to_f / awfulnesses.size).round(2)
 		finalQuality = (averageQuality - averageFanAwfulness).round(2)
-		degreeOfRuin = (100-((finalQuality / averageQuality)*100))
-		levelOfTragedy = ((averageQuality / (1100 / degreeOfRuin)))*100
+		degreeOfRuin = ((finalQuality / averageQuality)*100)
+		levelOfTragedy = (averageQuality*5) + ((100-degreeOfRuin)/22)
 
 		item = Item.first_or_create({ 
 			:name 						=> 	attr_name,
