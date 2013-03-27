@@ -1,5 +1,6 @@
 require 'sinatra'
 require 'data_mapper'
+require 'sinatra/flash'
 require 'json'
 
 enable :sessions
@@ -20,14 +21,7 @@ helpers do
 
 end
 
-configure :development do
-  DataMapper.setup(:default, "sqlite://#{Dir.pwd}/ruined.db")
-end
-
-configure :production do
-  DataMapper.setup(:default, ENV['HEROKU_POSTGRESQL_COPPER_URL'] || 'postgres://localhost/mydb')
-end
-
+DataMapper.setup(:default, ENV['HEROKU_POSTGRESQL_COPPER_URL'] || "sqlite://#{Dir.pwd}/ruined.db")
 
 
 
