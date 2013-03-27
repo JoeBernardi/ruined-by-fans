@@ -5,8 +5,5 @@ require "sinatra"
 require "data_mapper"
 require "json"
 require './ruined'
-
-set :run, false
-set :raise_errors, true
  
 run Sinatra::Application
