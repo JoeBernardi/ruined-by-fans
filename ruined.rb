@@ -4,23 +4,7 @@ require 'json'
 
 enable :sessions
 
-helpers do
-
-  def protected!
-    unless authorized?
-      response['WWW-Authenticate'] = %(Basic realm="Restricted Area")
-      throw(:halt, [401, "Not authorized\n"])
-    end
-  end
-
-  def authorized?
-    @auth ||=  Rack::Auth::Basic::Request.new(request.env)
-    @auth.provided? && @auth.basic? && @auth.credentials && @auth.credentials == ['admin', 'admin']
-  end
-
-end
-
-DataMapper.setup(:default, ENV['HEROKU_POSTGRESQL_COPPER_URL'] || "sqlite://#{Dir.pwd}/ruined.db")
+# DataMapper.setup(:default, ENV['HEROKU_POSTGRESQL_COPPER_URL'] || "sqlite://#{Dir.pwd}/ruined.db")
 
 
 
@@ -42,7 +26,7 @@ class Item
   property :created_at, 				DateTime,	:required => true
 end
 
-DataMapper.finalize.auto_upgrade!
+# DataMapper.finalize.auto_upgrade!
 
 json = File.read('db/seed.json')
 @items = JSON.parse(json)
@@ -56,9 +40,3 @@ end
 get '/data' do
 	Item.all.to_json
 end
-
-get '/admin' do
-  protected!
-  "Welcome, authenticated client"
-end
-
