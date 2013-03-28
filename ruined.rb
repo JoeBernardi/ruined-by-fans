@@ -38,5 +38,5 @@ get '/' do
 end
 
 get '/data' do
-	#Item.all.to_json
+	Item.all.to_json
 end
