@@ -6,6 +6,8 @@ enable :sessions
 
 DataMapper.setup(:default, ENV['HEROKU_POSTGRESQL_COPPER_URL'] || "sqlite://#{Dir.pwd}/ruined.db")
 
+
+
 class Item
   include DataMapper::Resource
   property :id, 						Serial
@@ -78,7 +80,7 @@ if Item.count == 0
 end
 
 get '/' do
-	#@items = Item.all
+	@items = Item.all
 	erb :index
 end
 
