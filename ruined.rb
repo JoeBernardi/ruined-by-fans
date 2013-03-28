@@ -78,7 +78,7 @@ if Item.count == 0
 		degreeOfRuin = ((finalQuality / averageQuality)*100)
 		levelOfTragedy = (averageQuality*5) + ((100-degreeOfRuin)/22)
 
-		item = Item.first_or_create({ 
+		item = Item.create({ 
 			:name 						=> 	attr_name,
 			:joeQuality 				=>	attr_value["Joe"]["quality"],
 			:joeFans					=>	attr_value["Joe"]["fans"],
