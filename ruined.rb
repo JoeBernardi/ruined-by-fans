@@ -42,59 +42,10 @@ class Item
   property :created_at, 				DateTime,	:required => true
 end
 
-DataMapper.finalize
-DataMapper.auto_migrate!
+DataMapper.finalize.auto_upgrade!
 
 json = File.read('db/seed.json')
 @items = JSON.parse(json)
-
-if Item.count == 0
-	@items.each do |attr_name, attr_value|
-		qualities = Array.new
-		awfulnesses = Array.new
-
-		unless attr_value["Tag"]["quality"].nil?
-			qualities.push attr_value["Tag"]["quality"];
-		end
-		unless attr_value["Tag"]["fans"].nil?
-			awfulnesses.push attr_value["Tag"]["fans"];
-		end
-		unless attr_value["David"]["quality"].nil?
-			qualities.push attr_value["David"]["quality"];
-		end
-		unless attr_value["David"]["fans"].nil?
-			awfulnesses.push attr_value["David"]["fans"];
-		end
-		unless attr_value["Joe"]["quality"].nil?
-			qualities.push attr_value["Joe"]["quality"];
-		end
-		unless attr_value["Joe"]["fans"].nil?
-			awfulnesses.push attr_value["Joe"]["fans"];
-		end
-
-		averageQuality = (qualities.inject{ |sum, el| sum + el }.to_f / qualities.size).round(2)
-		averageFanAwfulness = (awfulnesses.inject{ |sum, el| sum + el }.to_f / awfulnesses.size).round(2)
-		finalQuality = (averageQuality - averageFanAwfulness).round(2)
-		degreeOfRuin = ((finalQuality / averageQuality)*100)
-		levelOfTragedy = (averageQuality*5) + ((100-degreeOfRuin)/22)
-
-		item = Item.create({ 
-			:name 						=> 	attr_name,
-			:joeQuality 				=>	attr_value["Joe"]["quality"],
-			:joeFans					=>	attr_value["Joe"]["fans"],
-			:davidQuality 				=>	attr_value["David"]["quality"],
-			:davidFans					=>	attr_value["David"]["fans"],
-			:tagQuality					=>	attr_value["Tag"]["quality"],
-			:tagFans					=>	attr_value["Tag"]["fans"],
-			:averageQuality				=>	averageQuality,
-			:averageFanAwfulness		=> 	averageFanAwfulness,
-			:finalQuality				=>	finalQuality,
-			:levelOfTragedy				=>	levelOfTragedy.round(2),
-			:degreeOfRuin				=>	(100-degreeOfRuin).round(2),
-			:created_at					=> 	Time.now
-		})
-	end
-end
 
 
 get '/' do
