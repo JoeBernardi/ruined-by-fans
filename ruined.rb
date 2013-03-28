@@ -28,6 +28,8 @@ end
 
 DataMapper.finalize.auto_upgrade!
 
+json = File.read('db/seed.json')
+@items = JSON.parse(json)
 
 
 get '/' do
