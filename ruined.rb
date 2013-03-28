@@ -43,7 +43,7 @@ class Item
 end
 
 DataMapper.finalize
-DataMapper.auto_migrate!
+DataMapper.auto_upgrade!
 
 json = File.read('db/seed.json')
 @items = JSON.parse(json)
