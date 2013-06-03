@@ -1,5 +1,104 @@
+body {
+	position: relative;
+	overflow-x: hidden;
+}
+
 #container {
 	padding: 30px;
+	width: 1215px;
+	margin: 0 auto;
+	position: relative;
+}
+
+h1 {
+	background: #333;
+	text-align: center;
+	color: #fff;
+	font-size: 36px;
+	padding: 35px 0;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-family: 'Arvo', sans-serif;
+}
+
+#explanation {
+	position: absolute;
+	top: 10px;
+	left: 20px;
+	color: #fff;
+	font-size: 18px;
+	text-decoration: underline;
+	font-family: 'Roboto', sans-serif;
+	cursor: pointer;
+}
+
+#explanation:hover {
+	color: #ccc;
+}
+
+#whats-all-this {
+	color: #333;
+	position: absolute;
+	right: -150%;
+	margin-right: -500px;
+	display: none;
+	width: 1000px;
+	font-size: 22px;
+	line-height: 38px;
+	font-family: 'Roboto', sans-serif;
+}
+
+#back-to-list {
+	font-family: 'Roboto', sans-serif;
+	position: fixed;
+	left: 20px;
+	top: 145px;
+	text-align: center;
+	font-size: 13px;
+	cursor: pointer;
+	display: none;
+}
+
+#back-to-list span.arrow {
+	font-size: 22px;
+	line-height: 30px;
+	font-weight: bold;
+	display: block;
+}
+
+#whats-all-this p {
+	margin-top: 38px;
+}
+
+#whats-all-this a {
+	color: #333;
+}
+
+#whats-all-this ul {
+	margin-top: 38px;
+}
+
+#whats-all-this ul li {
+	margin-bottom: 19px;
+	border-bottom: 1px solid #333;
+	padding-bottom: 19px;
+}
+
+#whats-all-this ul li:last-of-type {
+	border: 0;
+}
+
+#whats-all-this strong {
+	font-weight: bold;
+	color: #ff0000;
+}
+
+#whats-all-this em {
+	color: #666;
+	font-style: italic;
+	display: block;
+	text-align: center;
+	margin: 38px 0;
 }
 
 #headers > div {
@@ -53,7 +152,7 @@
 }
 
 div.name {
-	width: 350px;
+	width: 300px;
 }
 
 div.number {

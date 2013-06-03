@@ -56,3 +56,32 @@ If there was something we considered uncool with fans so cool that they make us 
 Simply put:  The numerical amount from which a thing's fans detract from our perception of it.
 
 	- Range (for our sake, for now): 0 to 100
+
+
+Where To Go From Here
+==============
+
+Pieces Of Data We Have
+--------------
+
+- How bad we think the things are to begin with
+- How bad we think the things' fans are
+- The weighted quality of a thing based on how bad its fans are
+- The degree to which a thing's fans have made it worse
+- How tragic that is, based on how cool the thing was to begin with
+
+
+Pieces Of Data To Include On the Page
+--------------
+- Worst fans
+- Most detrimental fans
+- Biggest degree of tragedy
+- Most and least cynical out of the three of us?
+- Tens that were given
+
+
+Feature List
+--------------
+- Submissions
+- Admin screen where we can edit scores and add items
+

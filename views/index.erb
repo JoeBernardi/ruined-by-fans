@@ -6,7 +6,9 @@
 	<title>Ruined By Its Fans</title>
 	<link rel="stylesheet" href="css/reset.css" type="text/css" media="screen"/>
 	<link rel="stylesheet" href="css/style.css" type="text/css" media="screen"/>
-	<link href='http://fonts.googleapis.com/css?family=Roboto:400,900' rel='stylesheet' type='text/css'>
+	
+	<link href='http://fonts.googleapis.com/css?family=Roboto:400, 700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Arvo:700' rel='stylesheet' type='text/css'>
 
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
 	<script type="text/javascript" src="js/jquery.isotope.min.js"></script>
@@ -17,8 +19,30 @@
 
 <% if @items %>
 
-	<div id="container">
+	<h1>Ruined By Its Fans?</h1>
+	<div id="explanation">???</div>
+	<div id="back-to-list"><span class="arrow">←</span><br/>Back to the list</div>
+	<div id="whats-all-this">
+		<p>For those of us who prefer to spend our days enjoying things, it is a fact of life: Lots of disagreeable people like things that might otherwise be pretty cool. A little over a year ago, in early 2012, <a href="http://tagsavage.tumblr.com/" target="_blank">Tag</a>, <a href="http://davidcole.me" target="_blank">David</a>, and <a href="http://ihatetourists.com" target="_blank">I</a>, using nothing but a Google doc and our combined grade-school knowledge of mathematics, attempted to quantify the ways in which these madding crowds might be messing up our lives. Then, because we are men with (as has been established) lives, we let the data sit for awhile.</p>
+		<p>What we ended up with, though, is the group of criteria what you're seein' here:
+			<ul>
+				<li><strong>Name:</strong> The items used in this survey are from a big list we created that, as far as I can remember, consisted of things we thought might have particularly objectionable fans, or things we thought might have a high disparity between actual quality and fan quality.</li>
+				<li><strong>Average Quality:</strong> The three of us each rated our opinion of the thing's quality, independent from the quality of its fans, from one to ten. This is the average of those numbers.</li>
+				<li><strong>Fan Quality:</strong> See above, except this is gleaned from our rating the quality of the fans, independent from the quality of the thing.</li>
+				<li><strong>Final Quality:</strong> The average quality minus the fan quality. Simply Put:  This is the overall percieved quality of the thing, assuming the fans' opinions are weighted equally with the quality of the thing itself.</li>
+				<li><strong>Degree of Ruin:</strong> Finding out what percentage of the Average Quality the Final Quality is and subtracting it from a hundred. Simply Put: The percentage of the thing's innate quality that its awful fans knock off.</li>
+				<li><strong>Level of Tragedy:</strong> The result of the following equation:
 
+				<em>(Average Quality*5) + (Degree Of Ruin/22)</em>
+
+				This weights the Average Quality and Degree Of Ruin to a maximum of 50 points apiece, for a potential total of 100.
+				The higher the original quality, and the higher the degree to which the thing is ruined by its fans, the bigger a tragedy it is. Simply put: The numerical amount, from one to 100, from which a thing's fans detract from our perception of it.</li>
+			</ul>
+		</p>
+		<p>
+
+	</div>
+	<div id="container">
 		<div id="headers">
 			<div class="name" data-sort="name">Name <span class="triangle">&blacktriangle;</span> <span class="down-triangle">&blacktriangledown;</span></div>
 			<div class="quality number" data-sort="quality">Average Quality <span class="triangle">&blacktriangle;</span> <span class="down-triangle">&blacktriangledown;</span></div>
