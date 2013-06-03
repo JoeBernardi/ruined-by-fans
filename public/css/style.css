@@ -66,6 +66,10 @@ h1 {
 	display: block;
 }
 
+#back-to-list:hover {
+	color: #ccc;
+}
+
 #whats-all-this p {
 	margin-top: 38px;
 }

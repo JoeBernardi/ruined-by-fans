@@ -31,7 +31,7 @@ var Ruined = {
 	unexplain: function() {
 		$("body").removeClass("explaining");
 		$("#back-to-list").fadeOut("fast");
-		
+
 		$("#whats-all-this").animate({
   			right: '-150%'
   		}, 'fast', function() {
@@ -40,7 +40,7 @@ var Ruined = {
   			$("#container").animate({
   				left: '0%'
   			}, 'slow', function() {
-  				console.log("callbaq")
+  				
   			});
   		});
 	},
